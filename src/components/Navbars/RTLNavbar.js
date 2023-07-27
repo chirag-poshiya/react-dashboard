@@ -5,14 +5,7 @@ import classNames from "classnames";
 
 // reactstrap components
 import {
-  Button,
-  Collapse,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
-  Input,
-  InputGroup,
+  
   NavbarBrand,
   Navbar,
   NavLink,
@@ -21,12 +14,20 @@ import {
   Modal,
   ModalHeader,
   NavbarToggler,
+  Button,
+  Collapse,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  UncontrolledDropdown,
+  Input,
+  InputGroup,
 } from "reactstrap";
 
 function AdminNavbar(props) {
-  const [collapseOpen, setcollapseOpen] = React.useState(false);
-  const [modalSearch, setmodalSearch] = React.useState(false);
   const [color, setcolor] = React.useState("navbar-transparent");
+  const [modalSearch, setmodalSearch] = React.useState(false);
+  const [collapseOpen, setcollapseOpen] = React.useState(false);
   React.useEffect(() => {
     window.addEventListener("resize", updateColor);
     // Specify how to clean up after this effect:
@@ -34,6 +35,16 @@ function AdminNavbar(props) {
       window.removeEventListener("resize", updateColor);
     };
   });
+  
+  // this function opens and closes the collapse on small devices
+  const toggleCollapse = () => {
+    if (!collapseOpen) {
+      setcolor("bg-white");
+    } else {
+      setcolor("navbar-transparent");
+    }
+    setcollapseOpen(!collapseOpen);
+  };
   // function that adds color white/transparent to the navbar on resize (this is for the collapse)
   const updateColor = () => {
     if (window.innerWidth < 993 && collapseOpen) {
@@ -41,15 +52,6 @@ function AdminNavbar(props) {
     } else {
       setcolor("navbar-transparent");
     }
-  };
-  // this function opens and closes the collapse on small devices
-  const toggleCollapse = () => {
-    if (collapseOpen) {
-      setcolor("navbar-transparent");
-    } else {
-      setcolor("bg-white");
-    }
-    setcollapseOpen(!collapseOpen);
   };
   // this function is to open the Search modal
   const toggleModalSearch = () => {
