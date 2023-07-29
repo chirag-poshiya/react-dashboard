@@ -5,15 +5,16 @@ import NotificationAlert from "react-notification-alert";
 
 // reactstrap components
 import {
-  Alert,
-  UncontrolledAlert,
-  Button,
-  Card,
-  CardHeader,
+  
   CardBody,
   CardTitle,
-  Row,
   Col,
+  Row,
+  Alert,
+  Button,
+  UncontrolledAlert,
+  CardHeader,
+  Card,
 } from "reactstrap";
 
 function Notifications() {
@@ -42,7 +43,6 @@ function Notifications() {
     }
     var options = {};
     options = {
-      place: place,
       message: (
         <div>
           <div>
@@ -51,9 +51,10 @@ function Notifications() {
           </div>
         </div>
       ),
-      type: type,
-      icon: "ch-icons icon-bell-55",
+      place: place,
       autoDismiss: 7,
+      icon: "ch-icons icon-bell-55",
+      type: type,
     };
     notificationAlertRef.current.notificationAlert(options);
   };
@@ -61,7 +62,7 @@ function Notifications() {
     <>
       <div className="content">
         <div className="react-notification-alert-container">
-          <NotificationAlert ref={notificationAlertRef} />
+          <NotificationAlert ref={notificationAlertRef} alertMessage="Test Message" />
         </div>
         <Row>
           <Col md="6">
@@ -70,8 +71,8 @@ function Notifications() {
                 <CardTitle tag="h4">Notifications Style</CardTitle>
               </CardHeader>
               <CardBody>
-                <Alert color="info">
-                  <span>This is a plain notification</span>
+                <Alert color="info" typeM="info">
+                  <span>This is a plain notification with color Props</span>
                 </Alert>
                 <UncontrolledAlert color="info">
                   <span>This is a notification with close button.</span>
