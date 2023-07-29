@@ -269,11 +269,13 @@ function Rtl() {
                 </UncontrolledDropdown>
               </CardHeader>
               <CardBody>
-                <div className="table-full-width table-responsive">
+                <div
+                 className="table-full-width table-responsive">
                   <Table>
                     <tbody>
                       <tr>
-                        <td className="text-center">
+                        <td
+                         className="text-center">
                           <FormGroup check>
                             <Label check>
                               <Input
@@ -281,17 +283,22 @@ function Rtl() {
                                 defaultValue=""
                                 type="checkbox"
                               />
-                              <span className="form-check-sign">
+                              <span
+                               className="form-check-sign">
                                 <span className="check" />
                               </span>
                             </Label>
                           </FormGroup>
                         </td>
-                        <td className="text-right">
-                          <p className="title">مركز معالجة موقع محور</p>
-                          <p className="text-muted">نص آخر هناالوثائق</p>
+                        <td
+                         className="text-right">
+                          <p
+                           className="title">مركز معالجة موقع محور</p>
+                          <p
+                           className="text-muted">نص آخر هناالوثائق</p>
                         </td>
-                        <td className="td-actions">
+                        <td
+                         className="td-actions">
                           <Button
                             color="link"
                             id="tooltip591536518"
@@ -310,7 +317,8 @@ function Rtl() {
                         </td>
                       </tr>
                       <tr>
-                        <td className="text-center">
+                        <td
+                         className="text-center">
                           <FormGroup check>
                             <Label check>
                               <Input defaultValue="" type="checkbox" />
@@ -320,7 +328,8 @@ function Rtl() {
                             </Label>
                           </FormGroup>
                         </td>
-                        <td className="text-right">
+                        <td
+                         className="text-right">
                           <p className="title">لامتثال GDPR</p>
                           <p className="text-muted">
                             الناتج المحلي الإجمالي هو نظام يتطلب من الشركات
@@ -329,7 +338,8 @@ function Rtl() {
                             الاتحاد الأوروبي.
                           </p>
                         </td>
-                        <td className="td-actions">
+                        <td
+                         className="td-actions">
                           <Button
                             color="link"
                             id="tooltip36890049"
@@ -348,7 +358,8 @@ function Rtl() {
                         </td>
                       </tr>
                       <tr>
-                        <td className="text-center">
+                        <td
+                         className="text-center">
                           <FormGroup check>
                             <Label check>
                               <Input defaultValue="" type="checkbox" />
@@ -358,14 +369,16 @@ function Rtl() {
                             </Label>
                           </FormGroup>
                         </td>
-                        <td className="text-right">
+                        <td
+                         className="text-right">
                           <p className="title">القضاياالقضايا</p>
                           <p className="text-muted">
                             سيكونونقال 50٪ من جميع المستجيبين أنهم سيكونون أكثر
                             عرضة للتسوق في شركة
                           </p>
                         </td>
-                        <td className="td-actions">
+                        <td
+                         className="td-actions">
                           <Button
                             color="link"
                             id="tooltip5456779"
@@ -384,7 +397,8 @@ function Rtl() {
                         </td>
                       </tr>
                       <tr>
-                        <td className="text-center">
+                        <td
+                         className="text-center">
                           <FormGroup check>
                             <Label check>
                               <Input
@@ -398,7 +412,8 @@ function Rtl() {
                             </Label>
                           </FormGroup>
                         </td>
-                        <td className="text-right">
+                        <td
+                         className="text-right">
                           <p className="title">
                             تصدير الملفات التي تمت معالجتها
                           </p>
@@ -407,7 +422,8 @@ function Rtl() {
                             بمجرد حدوث خرق يعرض بياناتهم الشخصية.
                           </p>
                         </td>
-                        <td className="td-actions">
+                        <td
+                         className="td-actions">
                           <Button
                             color="link"
                             id="tooltip989428493"
@@ -426,7 +442,8 @@ function Rtl() {
                         </td>
                       </tr>
                       <tr>
-                        <td className="text-center">
+                        <td
+                         className="text-center">
                           <FormGroup check>
                             <Label check>
                               <Input
