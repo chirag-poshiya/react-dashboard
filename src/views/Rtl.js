@@ -7,38 +7,38 @@ import { Line, Bar } from "react-chartjs-2";
 
 // reactstrap components
 import {
-  Button,
   ButtonGroup,
-  Card,
+  Button,
   CardHeader,
-  CardBody,
+  Card,
   CardTitle,
-  DropdownToggle,
+  CardBody,
   DropdownMenu,
-  DropdownItem,
+  DropdownToggle,
   UncontrolledDropdown,
-  Label,
+  DropdownItem,
   FormGroup,
-  Input,
-  Table,
-  Row,
-  Col,
+  Label,
   UncontrolledTooltip,
+  Table,
+  Input,
+  Col,
+  Row,
 } from "reactstrap";
 
 // core components
 import {
-  chartExample1,
   chartExample2,
-  chartExample3,
   chartExample4,
+  chartExample3,
+  chartExample1,
 } from "variables/charts.js";
 
 function Rtl() {
-  const [bigChartData, setbigChartData] = React.useState("data1");
   const setBgChartData = (name) => {
     setbigChartData(name);
   };
+  const [bigChartData, setbigChartData] = React.useState("data1");
   return (
     <>
       <div className="content">
@@ -47,10 +47,20 @@ function Rtl() {
             <Card className="card-chart">
               <CardHeader>
                 <Row>
-                  <Col className="text-right" sm="6">
-                    <h5 className="card-category">مجموع الشحنات</h5>
-                    <CardTitle tag="h2">أداء</CardTitle>
+
+                  <Col 
+                    className="text-right" 
+                    sm="6">
+                    <h5 
+                      className="card-category">
+                        مجموع الشحنات
+                    </h5>
+                    <CardTitle 
+                      tag="h2">
+                        أداء
+                    </CardTitle>
                   </Col>
+
                   <Col sm="6">
                     <ButtonGroup
                       className="btn-group-toggle float-left"
@@ -58,18 +68,26 @@ function Rtl() {
                     >
                       <Button
                         tag="label"
-                        className={classNames("btn-simple", {
-                          active: bigChartData === "data1",
-                        })}
+                        className={
+                          classNames("btn-simple", 
+                            {
+                              active: bigChartData === "data1",
+                            }
+                          )
+                        }
                         color="info"
                         id="0"
                         size="sm"
-                        onClick={() => setBgChartData("data1")}
+                        onClick={
+                          () => setBgChartData("data1")
+                        }
                       >
-                        <span className="d-none d-sm-block d-md-block d-lg-block d-xl-block">
+                        <span 
+                          className="d-none d-sm-block d-md-block d-lg-block d-xl-block">
                           حسابات
                         </span>
-                        <span className="d-block d-sm-none">
+                        <span 
+                          className="d-block d-sm-none">
                           <i className="ch-icons icon-single-02" />
                         </span>
                       </Button>
@@ -78,15 +96,22 @@ function Rtl() {
                         id="1"
                         size="sm"
                         tag="label"
-                        className={classNames("btn-simple", {
-                          active: bigChartData === "data2",
-                        })}
-                        onClick={() => setBgChartData("data2")}
+                        className={
+                          classNames("btn-simple", {
+                            active: bigChartData === "data2",
+                          }
+                          )
+                        }
+                        onClick={
+                          () => setBgChartData("data2")
+                        }
                       >
-                        <span className="d-none d-sm-block d-md-block d-lg-block d-xl-block">
+                        <span
+                         className="d-none d-sm-block d-md-block d-lg-block d-xl-block">
                           المشتريات
                         </span>
-                        <span className="d-block d-sm-none">
+                        <span
+                         className="d-block d-sm-none">
                           <i className="ch-icons icon-gift-2" />
                         </span>
                       </Button>
@@ -95,15 +120,21 @@ function Rtl() {
                         id="2"
                         size="sm"
                         tag="label"
-                        className={classNames("btn-simple", {
-                          active: bigChartData === "data3",
-                        })}
-                        onClick={() => setBgChartData("data3")}
+                        className={
+                          classNames("btn-simple", {
+                            active: bigChartData === "data3",
+                          })
+                        }
+                        onClick={
+                          () => setBgChartData("data3")
+                        }
                       >
-                        <span className="d-none d-sm-block d-md-block d-lg-block d-xl-block">
+                        <span
+                         className="d-none d-sm-block d-md-block d-lg-block d-xl-block">
                           جلسات
                         </span>
-                        <span className="d-block d-sm-none">
+                        <span
+                         className="d-block d-sm-none">
                           <i className="ch-icons icon-tap-02" />
                         </span>
                       </Button>
@@ -112,7 +143,8 @@ function Rtl() {
                 </Row>
               </CardHeader>
               <CardBody>
-                <div className="chart-area">
+                <div
+                 className="chart-area">
                   <Line
                     data={chartExample1[bigChartData]}
                     options={chartExample1.options}
@@ -123,16 +155,21 @@ function Rtl() {
           </Col>
         </Row>
         <Row>
-          <Col className="text-right" lg="4">
-            <Card className="card-chart">
+          <Col
+           className="text-right" lg="4">
+            <Card
+             className="card-chart">
               <CardHeader>
-                <h5 className="card-category">شحنات كاملة</h5>
-                <CardTitle tag="h3">
+                <h5
+                 className="card-category">شحنات كاملة</h5>
+                <CardTitle
+                 tag="h3">
                   <i className="ch-icons icon-bell-55 text-primary" /> 763,215
                 </CardTitle>
               </CardHeader>
               <CardBody>
-                <div className="chart-area">
+                <div
+                 className="chart-area">
                   <Line
                     data={chartExample2.data}
                     options={chartExample2.options}
@@ -141,17 +178,21 @@ function Rtl() {
               </CardBody>
             </Card>
           </Col>
-          <Col className="text-right" lg="4">
-            <Card className="card-chart">
+          <Col
+           className="text-right" lg="4">
+            <Card
+             className="card-chart">
               <CardHeader>
-                <h5 className="card-category">المبيعات اليومية</h5>
+                <h5
+                 className="card-category">المبيعات اليومية</h5>
                 <CardTitle tag="h3">
                   <i className="ch-icons icon-delivery-fast text-info" />{" "}
                   3,500€
                 </CardTitle>
               </CardHeader>
               <CardBody>
-                <div className="chart-area">
+                <div
+                 className="chart-area">
                   <Bar
                     data={chartExample3.data}
                     options={chartExample3.options}
@@ -160,16 +201,22 @@ function Rtl() {
               </CardBody>
             </Card>
           </Col>
-          <Col className="text-right" lg="4">
-            <Card className="card-chart">
+          <Col
+           className="text-right" lg="4">
+            <Card
+             className="card-chart">
               <CardHeader>
-                <h5 className="card-category">المهام المكتملة</h5>
+                <h5
+                 className="card-category">
+                   المهام المكتملة
+                </h5>
                 <CardTitle tag="h3">
                   <i className="ch-icons icon-send text-success" /> 12,100K
                 </CardTitle>
               </CardHeader>
               <CardBody>
-                <div className="chart-area">
+                <div
+                 className="chart-area">
                   <Line
                     data={chartExample4.data}
                     options={chartExample4.options}
@@ -180,9 +227,12 @@ function Rtl() {
           </Col>
         </Row>
         <Row>
-          <Col className="text-center" lg="6" sm="6">
-            <Card className="card-tasks text-left">
-              <CardHeader className="text-right">
+          <Col
+           className="text-center" lg="6" sm="6">
+            <Card
+             className="card-tasks text-left">
+              <CardHeader
+               className="text-right">
                 <h6 className="title d-inline">تتبع</h6>{" "}
                 <p className="card-category d-inline">اليوم</p>
                 <UncontrolledDropdown className="float-left">
