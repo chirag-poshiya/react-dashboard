@@ -74,16 +74,16 @@ function Notifications() {
                 <Alert color="info" typeM="info">
                   <span>This is a plain notification with color Props</span>
                 </Alert>
-                <UncontrolledAlert color="info">
-                  <span>This is a notification with close button.</span>
+                <UncontrolledAlert color="info" autoClose="false">
+                  <span>This is a notification with close button and props color</span>
                 </UncontrolledAlert>
-                <UncontrolledAlert className="alert-with-icon" color="info">
+                <UncontrolledAlert className="alert-with-icon" color="info" typeM="info">
                   <span className="ch-icons icon-bell-55" data-notify="icon" />
                   <span data-notify="message">
-                    This is a notification with close button and icon.
+                    This is a notification with close button and icon.  
                   </span>
                 </UncontrolledAlert>
-                <UncontrolledAlert className="alert-with-icon" color="info">
+                <UncontrolledAlert className="alert-with-icon" color="info" typeM="info">
                   <span className="ch-icons icon-bell-55" data-notify="icon" />
                   <span data-notify="message">
                     This is a notification with close button and icon and have
@@ -98,7 +98,7 @@ function Notifications() {
           <Col md="6">
             <Card>
               <CardHeader>
-                <CardTitle tag="h4">Notification states</CardTitle>
+                <CardTitle tag="h4">Notification states </CardTitle>
               </CardHeader>
               <CardBody>
                 <UncontrolledAlert color="primary">
