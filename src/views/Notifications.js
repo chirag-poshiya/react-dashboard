@@ -125,10 +125,10 @@ function Notifications() {
                     This is a regular notification made with ".alert-warning"
                   </span>
                 </UncontrolledAlert>
-                <UncontrolledAlert color="danger">
+                <UncontrolledAlert color="danger" typeM="danger">
                   <span>
                     <b>Danger - </b>
-                    This is a regular notification made with ".alert-danger"
+                    This is a regular notification made with ".alert-danger"  from props
                   </span>
                 </UncontrolledAlert>
               </CardBody>
@@ -142,7 +142,7 @@ function Notifications() {
                     <Col className="ml-auto mr-auto text-center" md="6">
                       <CardTitle tag="h4">
                         Notifications Places
-                        <p className="category">Click to view notifications</p>
+                        <p className="category">Click here to view notifications </p>
                       </CardTitle>
                     </Col>
                   </Row>
@@ -153,7 +153,10 @@ function Notifications() {
                           <Button
                             block
                             color="primary"
-                            onClick={() => notify("tl")}
+                            onClick={
+                              () => notify("tl")
+                            }
+                            typeM="primary"
                           >
                             Top Left
                           </Button>
@@ -162,7 +165,10 @@ function Notifications() {
                           <Button
                             block
                             color="primary"
-                            onClick={() => notify("tc")}
+                            onClick={
+                              () => notify("tc")
+                            }
+                            typeM="primary"
                           >
                             Top Center
                           </Button>
@@ -171,7 +177,10 @@ function Notifications() {
                           <Button
                             block
                             color="primary"
-                            onClick={() => notify("tr")}
+                            onClick={
+                              () => notify("tr")
+                            }
+                            typeM="primary"
                           >
                             Top Right
                           </Button>
@@ -186,7 +195,10 @@ function Notifications() {
                           <Button
                             block
                             color="primary"
-                            onClick={() => notify("bl")}
+                            onClick={
+                              () => notify("bl")
+                            }
+                            typeM="primary"
                           >
                             Bottom Left
                           </Button>
@@ -195,7 +207,10 @@ function Notifications() {
                           <Button
                             block
                             color="primary"
-                            onClick={() => notify("bc")}
+                            onClick={
+                              () => notify("bc")
+                            }
+                            typeM="primary"
                           >
                             Bottom Center
                           </Button>
@@ -204,7 +219,10 @@ function Notifications() {
                           <Button
                             block
                             color="primary"
-                            onClick={() => notify("br")}
+                            onClick={
+                              () => notify("br")
+                            }
+                            typeM="primary"
                           >
                             Bottom Right
                           </Button>
