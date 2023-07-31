@@ -11,9 +11,9 @@ function Typography() {
         <Row>
           <Col md="12">
             <Card>
-              <CardHeader className="mb-5">
-                <h5 className="card-category">Black Table Heading</h5>
-                <CardTitle tag="h3">
+              <CardHeader className="mb-5"> 
+                <h5 className="card-category ">Black Table Heading</h5>
+                <CardTitle tag="h3 ">
                   Created using Poppins Font Family
                 </CardTitle>
               </CardHeader>
@@ -136,7 +136,7 @@ function Typography() {
                         <li>List Item</li>
                         <li className="list-unstyled">
                           <ul>
-                            <li>List Item</li>
+                            <li>List Item </li>
                             <li>List Item</li>
                             <li>List Item</li>
                           </ul>
@@ -149,8 +149,8 @@ function Typography() {
                       <ol>
                         <li>List Item</li>
                         <li>List Item</li>
-                        <li>List item</li>
                         <li>List Item</li>
+                        <li>List item</li>
                       </ol>
                     </Col>
                     <Col md="3">

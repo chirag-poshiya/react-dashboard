@@ -3,17 +3,17 @@ import React from "react";
 
 // reactstrap components
 import {
-  Button,
   Card,
-  CardHeader,
+  Button,
   CardBody,
-  CardFooter,
+  CardHeader,
   CardText,
-  FormGroup,
+  CardFooter,
   Form,
-  Input,
+  FormGroup,
   Row,
   Col,
+  Input,
 } from "reactstrap";
 
 function UserProfile() {
