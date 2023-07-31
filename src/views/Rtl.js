@@ -447,22 +447,22 @@ function Rtl() {
                           <FormGroup check>
                             <Label check>
                               <Input
+                                type="checkbox"
                                 defaultChecked
                                 defaultValue=""
-                                type="checkbox"
                               />
-                              <span className="form-check-sign">
+                              <span className="form-check-sign ">
                                 <span className="check" />
                               </span>
                             </Label>
                           </FormGroup>
                         </td>
                         <td className="text-right">
-                          <p className="title">الوصول إلى عملية التصدير</p>
+                          <p className="  title">الوصول إلى عملية التصدير</p>
                           <p className="text-muted">
                             سياسة السيء إنطلاق في قبل, مساعدة والمانيا أخذ قد.
-                            بل أما أمام ماشاء الشتاء،, تكاليف الإقتصادي بـ حين.
                             ٣٠ يتعلّق للإتحاد ولم, وتم هناك مدينة بتحدّي إذ, كان
+                            بل أما أمام ماشاء الشتاء،, تكاليف الإقتصادي بـ حين.
                             بل عمل
                           </p>
                         </td>
@@ -476,9 +476,9 @@ function Rtl() {
                             <i className="ch-icons icon-settings" />
                           </Button>
                           <UncontrolledTooltip
-                            delay={0}
-                            target="tooltip169784793"
                             placement="right"
+                            target="tooltip169784793"
+                            delay={0}
                           >
                             مهمة تحرير
                           </UncontrolledTooltip>
@@ -498,17 +498,17 @@ function Rtl() {
                         <td className="text-right">
                           <p className="title">الافراج عن v2.0.0</p>
                           <p className="text-muted">
-                            عن رئيس طوكيو البولندي لمّ, مايو مرجع وباءت قبل هو,
                             تسمّى الطريق الإقتصادي ذات أن. لغات الإطلاق الفرنسية
+                            عن رئيس طوكيو البولندي لمّ, مايو مرجع وباءت قبل هو,
                             دار ان, بين بتخصيص الساحة اقتصادية أم. و الآخ
                           </p>
                         </td>
                         <td className="td-actions">
                           <Button
-                            color="link"
-                            id="tooltip554497871"
                             title=""
+                            color="link"
                             type="button"
+                            id="tooltip554497871"
                           >
                             <i className="ch-icons icon-settings" />
                           </Button>
@@ -537,52 +537,52 @@ function Rtl() {
                   <thead className="text-primary">
                     <tr>
                       <th>اسم</th>
-                      <th>بلد</th>
                       <th>مدينة</th>
+                      <th>بلد</th>
                       <th className="text-center">راتب</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>رايس داكوتا</td>
-                      <td>النيجر</td>
                       <td>العود-تورنهاوت</td>
+                      <td>النيجر</td>
                       <td className="text-center">$36,738</td>
                     </tr>
                     <tr>
                       <td>مينيرفا هوبر</td>
-                      <td>كوراساو</td>
                       <td>Sinaai-واس</td>
+                      <td>كوراساو</td>
                       <td className="text-center">$23,789</td>
                     </tr>
                     <tr>
                       <td>سيج رودريجيز</td>
-                      <td>هولندا</td>
                       <td>بايلي</td>
+                      <td>هولندا</td>
                       <td className="text-center">$56,142</td>
                     </tr>
                     <tr>
                       <td>فيليب شانيه</td>
-                      <td>كوريا، جنوب</td>
                       <td>اوفرلاند بارك</td>
+                      <td>كوريا، جنوب</td>
                       <td className="text-center">$38,735</td>
                     </tr>
                     <tr>
                       <td>دوريس غرين</td>
-                      <td>مالاوي</td>
                       <td>المنع</td>
+                      <td>مالاوي</td>
                       <td className="text-center">$63,542</td>
                     </tr>
                     <tr>
                       <td>ميسون بورتر</td>
-                      <td>تشيلي</td>
                       <td>غلوستر</td>
+                      <td>تشيلي</td>
                       <td className="text-center">$78,615</td>
                     </tr>
                     <tr>
                       <td>جون بورتر</td>
-                      <td>البرتغال</td>
                       <td>غلوستر</td>
+                      <td>البرتغال</td>
                       <td className="text-center">$98,615</td>
                     </tr>
                   </tbody>
