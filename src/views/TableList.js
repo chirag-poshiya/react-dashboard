@@ -29,33 +29,33 @@ function Tables() {
                       <th>Name</th>
                       <th>Country</th>
                       <th>City</th>
-                      <th className="text-center">Salary</th>
+                      <th  className="text-center">Salary</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Dakota Rice</td>
-                      <td>Niger</td>
-                      <td>Oud-Turnhout</td>
-                      <td className="text-center">$36,738</td>
+                      <td> Dakota Rice</td>
+                      <td> Niger</td>
+                      <td> Oud-Turnhout</td>
+                      <td className=" text-center">$36,738</td>
                     </tr>
                     <tr>
-                      <td>Minerva Hooper</td>
-                      <td>Curaçao</td>
-                      <td>Sinaai-Waas</td>
-                      <td className="text-center">$23,789</td>
+                      <td>Minerva Hooper </td>
+                      <td>Curaçao </td>
+                      <td>Sinaai-Waas </td>
+                      <td className="text-center ">$23,789</td>
                     </tr>
                     <tr>
-                      <td>Sage Rodriguez</td>
-                      <td>Netherlands</td>
-                      <td>Baileux</td>
-                      <td className="text-center">$56,142</td>
+                      <td>Sage Rodriguez </td>
+                      <td>Netherlands </td>
+                      <td>Baileux </td>
+                      <td className=" text-center">$56,142</td>
                     </tr>
                     <tr>
-                      <td>Philip Chaney</td>
-                      <td>Korea, South</td>
-                      <td>Overland Park</td>
-                      <td className="text-center">$38,735</td>
+                      <td>Philip Chaney </td>
+                      <td>Korea, South </td>
+                      <td>Overland Park </td>
+                      <td className="text-center ">$38,735</td>
                     </tr>
                     <tr>
                       <td>Doris Greene</td>
