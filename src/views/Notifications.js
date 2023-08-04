@@ -6,15 +6,15 @@ import NotificationAlert from "react-notification-alert";
 // reactstrap components
 import {
   
-  CardBody,
   CardTitle,
   Col,
-  Row,
+  CardBody,
   Alert,
-  Button,
+  Row,
   UncontrolledAlert,
-  CardHeader,
+  Button,
   Card,
+  CardHeader,
 } from "reactstrap";
 
 function Notifications() {
@@ -86,10 +86,7 @@ function Notifications() {
                 <UncontrolledAlert className="alert-with-icon" color="info" typeM="info">
                   <span className="ch-icons icon-bell-55" data-notify="icon" />
                   <span data-notify="message">
-                    This is a notification with close button and icon and have
-                    many lines. You can see that the icon and the close button
-                    are always vertically aligned. This is a beautiful
-                    notification. So you don't have to worry about the style.
+                    This is a notification with close button and icon and have many lines. You can see that the icon and the close button are always vertically aligned. This is a beautiful notification. So you don't have to worry about the style.
                   </span>
                 </UncontrolledAlert>
               </CardBody>
@@ -151,11 +148,11 @@ function Notifications() {
                       <Row>
                         <Col md="4">
                           <Button
-                            block
                             color="primary"
                             onClick={
                               () => notify("tl")
                             }
+                            block
                             typeM="primary"
                           >
                             Top Left
@@ -163,24 +160,24 @@ function Notifications() {
                         </Col>
                         <Col md="4">
                           <Button
-                            block
                             color="primary"
+                            block
+                            typeM="primary"
                             onClick={
                               () => notify("tc")
                             }
-                            typeM="primary"
                           >
                             Top Center
                           </Button>
                         </Col>
                         <Col md="4">
                           <Button
-                            block
                             color="primary"
+                            typeM="primary"
+                            block
                             onClick={
                               () => notify("tr")
                             }
-                            typeM="primary"
                           >
                             Top Right
                           </Button>
@@ -193,36 +190,36 @@ function Notifications() {
                       <Row>
                         <Col md="4">
                           <Button
-                            block
                             color="primary"
+                            block
+                            typeM="primary"
                             onClick={
                               () => notify("bl")
                             }
-                            typeM="primary"
                           >
                             Bottom Left
                           </Button>
                         </Col>
                         <Col md="4">
                           <Button
-                            block
+                            typeM="primary"
                             color="primary"
+                            block
                             onClick={
                               () => notify("bc")
                             }
-                            typeM="primary"
                           >
                             Bottom Center
                           </Button>
                         </Col>
                         <Col md="4">
                           <Button
-                            block
                             color="primary"
+                            block
+                            typeM="primary"
                             onClick={
                               () => notify("br")
                             }
-                            typeM="primary"
                           >
                             Bottom Right
                           </Button>
