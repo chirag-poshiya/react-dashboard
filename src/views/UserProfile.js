@@ -3,17 +3,17 @@ import React from "react";
 
 // reactstrap components
 import {
-  Card,
   Button,
-  CardBody,
+  Card,
   CardHeader,
-  CardText,
+  CardBody,
   CardFooter,
-  Form,
+  CardText,
   FormGroup,
-  Row,
+  Form,
   Col,
   Input,
+  Row,
 } from "reactstrap";
 
 function UserProfile() {
@@ -33,9 +33,9 @@ function UserProfile() {
                       <FormGroup>
                         <label>Company (disabled)</label>
                         <Input
-                          defaultValue="Creative Code Inc."
                           placeholder="Company"
                           disabled
+                          defaultValue="Creative Code Inc."
                           type="text"
                         />
                       </FormGroup>
@@ -44,9 +44,9 @@ function UserProfile() {
                       <FormGroup>
                         <label>Username</label>
                         <Input
+                          placeholder="Username"
                           defaultValue="michael23"
                           type="text"
-                          placeholder="Username"
                         />
                       </FormGroup>
                     </Col>
@@ -64,9 +64,9 @@ function UserProfile() {
                       <FormGroup>
                         <label>First Name</label>
                         <Input
-                          defaultValue="Mike"
                           type="text"
                           placeholder="Company"
+                          defaultValue="Mike"
                         />
                       </FormGroup>
                     </Col>
@@ -74,9 +74,9 @@ function UserProfile() {
                       <FormGroup>
                         <label>Last Name</label>
                         <Input
-                          defaultValue="Andrew"
                           type="text"
                           placeholder="Last Name"
+                          defaultValue="Andrew"
                         />
                       </FormGroup>
                     </Col>
@@ -87,8 +87,8 @@ function UserProfile() {
                         <label>Address</label>
                         <Input
                           placeholder="Home Address"
-                          defaultValue="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
                           type="text"
+                          defaultValue="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
                         />
                       </FormGroup>
                     </Col>
@@ -98,9 +98,9 @@ function UserProfile() {
                       <FormGroup>
                         <label>City</label>
                         <Input
-                          defaultValue="Mike"
                           type="text"
                           placeholder="City"
+                          defaultValue="Mike"
                         />
                       </FormGroup>
                     </Col>
@@ -108,9 +108,9 @@ function UserProfile() {
                       <FormGroup>
                         <label>Country</label>
                         <Input
-                          placeholder="Country"
                           defaultValue="Andrew"
                           type="text"
+                          placeholder="Country"
                         />
                       </FormGroup>
                     </Col>
@@ -126,12 +126,12 @@ function UserProfile() {
                       <FormGroup>
                         <label>About Me</label>
                         <Input
-                          cols="80"
-                          defaultValue="Lamborghini Mercy, Your chick she so thirsty, I'm in
-                            that two seat Lambo."
-                          rows="4"
-                          type="textarea"
                           placeholder="Here can be your description"
+                          defaultValue="Lamborghini Mercy, Your chick she so thirsty, I'm in
+                          that two seat Lambo."
+                          cols="80"
+                          type="textarea"
+                          rows="4"
                         />
                       </FormGroup>
                     </Col>
