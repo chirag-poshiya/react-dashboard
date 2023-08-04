@@ -7,31 +7,31 @@ import { Line, Bar } from "react-chartjs-2";
 
 // reactstrap components
 import {
-  ButtonGroup,
   Button,
-  CardHeader,
+  ButtonGroup,
   Card,
-  CardTitle,
+  CardHeader,
   CardBody,
-  DropdownMenu,
+  CardTitle,
   DropdownToggle,
-  UncontrolledDropdown,
+  DropdownMenu,
   DropdownItem,
-  FormGroup,
+  UncontrolledDropdown,
   Label,
-  UncontrolledTooltip,
+  FormGroup,
   Table,
-  Input,
+  UncontrolledTooltip,
   Col,
   Row,
+  Input,
 } from "reactstrap";
 
 // core components
 import {
-  chartExample2,
   chartExample4,
-  chartExample3,
   chartExample1,
+  chartExample3,
+  chartExample2,
 } from "variables/charts.js";
 
 function Rtl() {
@@ -67,7 +67,6 @@ function Rtl() {
                       data-toggle="buttons"
                     >
                       <Button
-                        tag="label"
                         className={
                           classNames("btn-simple", 
                             {
@@ -75,9 +74,10 @@ function Rtl() {
                             }
                           )
                         }
+                        tag="label"
+                        size="sm"
                         color="info"
                         id="0"
-                        size="sm"
                         onClick={
                           () => setBgChartData("data1")
                         }
@@ -92,10 +92,10 @@ function Rtl() {
                         </span>
                       </Button>
                       <Button
-                        color="info"
                         id="1"
-                        size="sm"
+                        color="info"
                         tag="label"
+                        size="sm"
                         className={
                           classNames("btn-simple", {
                             active: bigChartData === "data2",
@@ -107,19 +107,19 @@ function Rtl() {
                         }
                       >
                         <span
-                         className="d-none d-sm-block d-md-block d-lg-block d-xl-block">
+                         className="d-none d-xl-block d-sm-block d-md-block d-lg-block ">
                           المشتريات
                         </span>
                         <span
                          className="d-block d-sm-none">
-                          <i className="ch-icons icon-gift-2" />
+                          <i className="icon-gift-2 ch-icons " />
                         </span>
                       </Button>
                       <Button
                         color="info"
-                        id="2"
-                        size="sm"
                         tag="label"
+                        size="sm"
+                        id="2"
                         className={
                           classNames("btn-simple", {
                             active: bigChartData === "data3",
