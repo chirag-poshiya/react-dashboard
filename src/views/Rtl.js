@@ -130,12 +130,12 @@ function Rtl() {
                         }
                       >
                         <span
-                         className="d-none d-sm-block d-md-block d-lg-block d-xl-block">
+                         className="d-none d-xl-block d-sm-block d-md-block d-lg-block">
                           جلسات
                         </span>
                         <span
                          className="d-block d-sm-none">
-                          <i className="ch-icons icon-tap-02" />
+                          <i className=" icon-tap-02 ch-icons" />
                         </span>
                       </Button>
                     </ButtonGroup>
@@ -146,8 +146,8 @@ function Rtl() {
                 <div
                  className="chart-area">
                   <Line
-                    data={chartExample1[bigChartData]}
                     options={chartExample1.options}
+                    data={chartExample1[bigChartData]}
                   />
                 </div>
               </CardBody>
@@ -164,15 +164,15 @@ function Rtl() {
                  className="card-category">شحنات كاملة</h5>
                 <CardTitle
                  tag="h3">
-                  <i className="ch-icons icon-bell-55 text-primary" /> 763,215
+                  <i className="ch-icons text-primary icon-bell-55 " /> 763,215
                 </CardTitle>
               </CardHeader>
               <CardBody>
                 <div
                  className="chart-area">
                   <Line
-                    data={chartExample2.data}
                     options={chartExample2.options}
+                    data={chartExample2.data}
                   />
                 </div>
               </CardBody>
@@ -186,7 +186,7 @@ function Rtl() {
                 <h5
                  className="card-category">المبيعات اليومية</h5>
                 <CardTitle tag="h3">
-                  <i className="ch-icons icon-delivery-fast text-info" />{" "}
+                  <i className="ch-icons text-info icon-delivery-fast" />{" "}
                   3,500€
                 </CardTitle>
               </CardHeader>
@@ -194,8 +194,8 @@ function Rtl() {
                 <div
                  className="chart-area">
                   <Bar
-                    data={chartExample3.data}
                     options={chartExample3.options}
+                    data={chartExample3.data}
                   />
                 </div>
               </CardBody>
@@ -218,8 +218,8 @@ function Rtl() {
                 <div
                  className="chart-area">
                   <Line
-                    data={chartExample4.data}
                     options={chartExample4.options}
+                    data={chartExample4.data}
                   />
                 </div>
               </CardBody>
@@ -237,31 +237,31 @@ function Rtl() {
                 <p className="card-category d-inline">اليوم</p>
                 <UncontrolledDropdown className="float-left">
                   <DropdownToggle
-                    aria-expanded={false}
                     aria-haspopup={true}
                     caret
-                    color="link"
                     data-toggle="dropdown"
+                    aria-expanded={false}
                     id="dropdownMenuLink"
+                    color="link"
                   >
                     <i className="ch-icons icon-settings-gear-63" />
                   </DropdownToggle>
                   <DropdownMenu aria-labelledby="dropdownMenuLink">
                     <DropdownItem
-                      href="#pablo"
                       onClick={(e) => e.preventDefault()}
+                      href="#pablo"
                     >
                       عمل
                     </DropdownItem>
                     <DropdownItem
-                      href="#pablo"
                       onClick={(e) => e.preventDefault()}
+                      href="#pablo"
                     >
                       عمل آخر
                     </DropdownItem>
                     <DropdownItem
-                      href="#pablo"
                       onClick={(e) => e.preventDefault()}
+                      href="#pablo"
                     >
                       شيء آخر هنا
                     </DropdownItem>
@@ -280,8 +280,8 @@ function Rtl() {
                             <Label check>
                               <Input
                                 defaultChecked
-                                defaultValue=""
                                 type="checkbox"
+                                defaultValue=""
                               />
                               <span
                                className="form-check-sign">
@@ -300,16 +300,16 @@ function Rtl() {
                         <td
                          className="td-actions">
                           <Button
-                            color="link"
                             id="tooltip591536518"
-                            title=""
+                            color="link"
                             type="button"
+                            title=""
                           >
                             <i className="ch-icons icon-settings" />
                           </Button>
                           <UncontrolledTooltip
-                            delay={0}
                             target="tooltip591536518"
+                            delay={0}
                             placement="right"
                           >
                             مهمة تحرير
@@ -332,8 +332,8 @@ function Rtl() {
                          className="text-right">
                           <p className="title">لامتثال GDPR</p>
                           <p className="text-muted">
-                            الناتج المحلي الإجمالي هو نظام يتطلب من الشركات
                             حماية البيانات الشخصية والخصوصية لمواطني أوروبا
+                            الناتج المحلي الإجمالي هو نظام يتطلب من الشركات
                             بالنسبة للمعاملات التي تتم داخل الدول الأعضاء في
                             الاتحاد الأوروبي.
                           </p>
@@ -341,16 +341,16 @@ function Rtl() {
                         <td
                          className="td-actions">
                           <Button
-                            color="link"
-                            id="tooltip36890049"
-                            title=""
                             type="button"
+                            color="link"
+                            title=""
+                            id="tooltip36890049"
                           >
                             <i className="ch-icons icon-settings" />
                           </Button>
                           <UncontrolledTooltip
-                            delay={0}
                             target="tooltip36890049"
+                            delay={0}
                             placement="right"
                           >
                             مهمة تحرير
@@ -373,23 +373,23 @@ function Rtl() {
                          className="text-right">
                           <p className="title">القضاياالقضايا</p>
                           <p className="text-muted">
-                            سيكونونقال 50٪ من جميع المستجيبين أنهم سيكونون أكثر
                             عرضة للتسوق في شركة
+                            سيكونونقال 50٪ من جميع المستجيبين أنهم سيكونون أكثر
                           </p>
                         </td>
                         <td
                          className="td-actions">
                           <Button
                             color="link"
-                            id="tooltip5456779"
                             title=""
+                            id="tooltip5456779"
                             type="button"
                           >
                             <i className="ch-icons icon-settings" />
                           </Button>
                           <UncontrolledTooltip
-                            delay={0}
                             target="tooltip5456779"
+                            delay={0}
                             placement="right"
                           >
                             مهمة تحرير
@@ -402,8 +402,8 @@ function Rtl() {
                           <FormGroup check>
                             <Label check>
                               <Input
-                                defaultChecked
                                 defaultValue=""
+                                defaultChecked
                                 type="checkbox"
                               />
                               <span className="form-check-sign">
@@ -418,23 +418,23 @@ function Rtl() {
                             تصدير الملفات التي تمت معالجتها
                           </p>
                           <p className="text-muted">
-                            كما يبين التقرير أن المستهلكين لن يغفروا شركة بسهولة
                             بمجرد حدوث خرق يعرض بياناتهم الشخصية.
+                            كما يبين التقرير أن المستهلكين لن يغفروا شركة بسهولة
                           </p>
                         </td>
                         <td
                          className="td-actions">
                           <Button
-                            color="link"
                             id="tooltip989428493"
-                            title=""
+                            color="link"
                             type="button"
+                            title=""
                           >
                             <i className="ch-icons icon-settings" />
                           </Button>
                           <UncontrolledTooltip
-                            delay={0}
                             target="tooltip989428493"
+                            delay={0}
                             placement="right"
                           >
                             مهمة تحرير
@@ -447,8 +447,8 @@ function Rtl() {
                           <FormGroup check>
                             <Label check>
                               <Input
-                                type="checkbox"
                                 defaultChecked
+                                type="checkbox"
                                 defaultValue=""
                               />
                               <span className="form-check-sign ">
@@ -460,8 +460,8 @@ function Rtl() {
                         <td className="text-right">
                           <p className="  title">الوصول إلى عملية التصدير</p>
                           <p className="text-muted">
-                            سياسة السيء إنطلاق في قبل, مساعدة والمانيا أخذ قد.
                             ٣٠ يتعلّق للإتحاد ولم, وتم هناك مدينة بتحدّي إذ, كان
+                            سياسة السيء إنطلاق في قبل, مساعدة والمانيا أخذ قد.
                             بل أما أمام ماشاء الشتاء،, تكاليف الإقتصادي بـ حين.
                             بل عمل
                           </p>
@@ -469,15 +469,15 @@ function Rtl() {
                         <td className="td-actions">
                           <Button
                             color="link"
-                            id="tooltip169784793"
                             title=""
+                            id="tooltip169784793"
                             type="button"
                           >
                             <i className="ch-icons icon-settings" />
                           </Button>
                           <UncontrolledTooltip
-                            placement="right"
                             target="tooltip169784793"
+                            placement="right"
                             delay={0}
                           >
                             مهمة تحرير
@@ -498,23 +498,23 @@ function Rtl() {
                         <td className="text-right">
                           <p className="title">الافراج عن v2.0.0</p>
                           <p className="text-muted">
-                            تسمّى الطريق الإقتصادي ذات أن. لغات الإطلاق الفرنسية
                             عن رئيس طوكيو البولندي لمّ, مايو مرجع وباءت قبل هو,
+                            تسمّى الطريق الإقتصادي ذات أن. لغات الإطلاق الفرنسية
                             دار ان, بين بتخصيص الساحة اقتصادية أم. و الآخ
                           </p>
                         </td>
                         <td className="td-actions">
                           <Button
                             title=""
-                            color="link"
                             type="button"
+                            color="link"
                             id="tooltip554497871"
                           >
                             <i className="ch-icons icon-settings" />
                           </Button>
                           <UncontrolledTooltip
-                            delay={0}
                             target="tooltip554497871"
+                            delay={0}
                             placement="right"
                           >
                             مهمة تحرير
@@ -536,52 +536,52 @@ function Rtl() {
                 <Table className="tablesorter" responsive>
                   <thead className="text-primary">
                     <tr>
-                      <th>اسم</th>
                       <th>مدينة</th>
+                      <th>اسم</th>
                       <th>بلد</th>
                       <th className="text-center">راتب</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>رايس داكوتا</td>
                       <td>العود-تورنهاوت</td>
+                      <td>رايس داكوتا</td>
                       <td>النيجر</td>
                       <td className="text-center">$36,738</td>
                     </tr>
                     <tr>
-                      <td>مينيرفا هوبر</td>
                       <td>Sinaai-واس</td>
+                      <td>مينيرفا هوبر</td>
                       <td>كوراساو</td>
                       <td className="text-center">$23,789</td>
                     </tr>
                     <tr>
-                      <td>سيج رودريجيز</td>
                       <td>بايلي</td>
+                      <td>سيج رودريجيز</td>
                       <td>هولندا</td>
                       <td className="text-center">$56,142</td>
                     </tr>
                     <tr>
                       <td>فيليب شانيه</td>
-                      <td>اوفرلاند بارك</td>
                       <td>كوريا، جنوب</td>
+                      <td>اوفرلاند بارك</td>
                       <td className="text-center">$38,735</td>
                     </tr>
                     <tr>
                       <td>دوريس غرين</td>
-                      <td>المنع</td>
                       <td>مالاوي</td>
+                      <td>المنع</td>
                       <td className="text-center">$63,542</td>
                     </tr>
                     <tr>
                       <td>ميسون بورتر</td>
-                      <td>غلوستر</td>
                       <td>تشيلي</td>
+                      <td>غلوستر</td>
                       <td className="text-center">$78,615</td>
                     </tr>
                     <tr>
-                      <td>جون بورتر</td>
                       <td>غلوستر</td>
+                      <td>جون بورتر</td>
                       <td>البرتغال</td>
                       <td className="text-center">$98,615</td>
                     </tr>
